@@ -1,4 +1,4 @@
-package com.cxkun.factory;
+package com.cxkun.creational.simplefactory;
 
 public interface Product {
     void name();

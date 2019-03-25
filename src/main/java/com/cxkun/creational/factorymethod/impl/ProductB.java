@@ -1,4 +1,6 @@
-package com.cxkun.factory;
+package com.cxkun.creational.factorymethod.impl;
+
+import com.cxkun.creational.factorymethod.Product;
 
 public class ProductB implements Product {
     @Override

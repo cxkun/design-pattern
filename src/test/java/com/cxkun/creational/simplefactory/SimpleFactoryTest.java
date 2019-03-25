@@ -1,4 +1,4 @@
-package com.cxkun.factory;
+package com.cxkun.creational.simplefactory;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
