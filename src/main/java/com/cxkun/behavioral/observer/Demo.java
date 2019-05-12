@@ -15,6 +15,9 @@ import com.cxkun.behavioral.observer.impl.SubjectImpl;
  * 具体主题（Concrete    Subject）角色：也叫具体目标类，它实现抽象目标中的通知方法，当具体主题的内部状态发生改变时，通知所有注册过的观察者对象。
  * 抽象观察者（Observer）角色：它是一个抽象类或接口，它包含了一个更新自己的抽象方法，当接到具体主题的更改通知时被调用。
  * 具体观察者（Concrete Observer）角色：实现抽象观察者中定义的抽象方法，以便在得到目标的更改通知时更新自身的状态。
+ *
+ * 个人理解:
+ * 观察者和主题是抽象耦合的，增加主题实现，和观察者实现，都是很容易的
  */
 public class Demo {
     public static void main(String[] args) {
